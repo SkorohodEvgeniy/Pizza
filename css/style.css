@@ -1092,6 +1092,29 @@ header .menu-right .menu-user button {
     border-top: none;
     padding-top: 0;
   }
+  .modal__lostPassword .btn__escape {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #00AC4E;
+  }
+  .modal__lostPassword .btn__update-password {
+    background: #00AC4E;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding: 12px;
+    color: #FFFFFF;
+  }
+  .modal__lostPassword .modal-footer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

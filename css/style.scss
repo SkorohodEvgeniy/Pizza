@@ -910,5 +910,30 @@ header {
             border-top: none;
             padding-top: 0;
         }
+        &__lostPassword{
+            .btn{
+                &__escape{
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-align: center;
+                    color: #00AC4E;
+                }
+                &__update-password{
+                    background: #00AC4E;
+                    border-radius: 5px;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-align: center;
+                    padding: 12px;
+                    color: #FFFFFF;
+                }
+            }
+            .modal-footer{
+                justify-content: space-between;
+                padding: 0 2rem;
+            }
+        }
     }
 }

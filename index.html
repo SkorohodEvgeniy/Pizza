@@ -645,7 +645,6 @@
       <div
         class="modal fade modal__register"
         id="inSingn"
-        data-backdrop="static"
         data-keyboard="false"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
@@ -684,7 +683,7 @@
                     placeholder="Пароль"
                   />
                 </div>
-                <button type="button" class="forgot">Забыли пароль?</button>
+                <button type="button" class="forgot" data-toggle="modal" data-dismiss="modal" data-target="#lostPassword">Забыли пароль?</button>
                 <button type="submit" class="btn__submit">Войти</button>
               </form>
             </div>
@@ -701,9 +700,8 @@
 
       <!-- Modal Registration-->
       <div
-        class="modal fade modal__register"
+        class="modal fade modal__register  "
         id="registration"
-        data-backdrop="static"
         data-keyboard="false"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
@@ -771,6 +769,66 @@
                   </div>
                 </div>
                 <button type="submit" class="btn__submit">Зарегистрироваться</button>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Modal Lost Password-->
+      <div
+        class="modal fade modal__lostPassword  "
+        id="lostPassword"
+        data-keyboard="false"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/svg/person-reg.svg" width="34" height="34" />
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Восстановление пароля
+              </h5>
+              <form class="d-flex flex-column justify-content-center">
+                <div class="form-group mb-1">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="tel-name"
+                    placeholder="Телефон"
+                  />
+                </div>
+                <div class="form-group mb-1">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="pas-name"
+                    placeholder="Новый пароль (мин. 6 символов)"
+                  />
+                </div>
+                <div class="form-group mb-1">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="pasRep-name"
+                    placeholder="Повторите пароль"
+                  />
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn__escape" data-dismiss="modal">Отменить</button>
+                  <button type="button" class="btn btn__update-password">Обновить пароль</button>
+                </div>
               </form>
             </div>
             
