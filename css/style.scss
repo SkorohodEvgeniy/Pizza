@@ -73,7 +73,7 @@ header {
         margin-right: 38px;
     }
 
-    .nav-item.dropdown.show > a.nav-link {
+    .nav-item.dropdown.show>a.nav-link {
         color: #00ac4e;
     }
 
@@ -135,6 +135,7 @@ header {
         }
 
         .menu-user {
+
             a,
             button {
                 margin-left: 30px;
@@ -750,12 +751,14 @@ header {
             flex: 0 0 auto;
             padding-bottom: 1rem;
             margin-top: -30px;
+
             form {
                 .form-group {
                     max-width: 269px;
                     width: 100%;
                     display: flex;
                     margin: 0 auto;
+
                     &:nth-child(1) input {
                         background-image: url(../img/svg/phone-reg.svg);
                         background-repeat: no-repeat;
@@ -786,20 +789,23 @@ header {
                         margin-bottom: 25px;
                         position: relative;
                     }
-                    &.radio__group{
-                        label{
+
+                    &.radio__group {
+                        label {
                             font-size: 9.3569px;
                             line-height: 14px;
                             text-align: center;
                             color: #C6C6C6;
                             text-align: start;
                             cursor: pointer;
-                            a{
+
+                            a {
                                 color: #00ac4e;
                             }
                         }
+
                         .radio__group-one,
-                        .radio__group-two{
+                        .radio__group-two {
                             cursor: pointer;
                             padding: 0;
                             width: 15px;
@@ -807,13 +813,15 @@ header {
                             margin-bottom: 14px;
                             margin-left: 0;
                             margin-right: 16px;
-                            &[type="radio"]{
+
+                            &[type="radio"] {
                                 position: relative;
                                 width: 15px;
                                 height: 15px;
                                 appearance: none;
                                 outline: none;
-                                &::before{
+
+                                &::before {
                                     content: '';
                                     position: absolute;
                                     top: 50%;
@@ -825,7 +833,8 @@ header {
                                     background-color: transparent;
                                     border: 2px solid #ebebeb;
                                 }
-                                &:checked::after{
+
+                                &:checked::after {
                                     content: '';
                                     position: absolute;
                                     top: 50%;
@@ -911,16 +920,18 @@ header {
             border-top: none;
             padding-top: 0;
         }
-        &__lostPassword{
-            .btn{
-                &__escape{
+
+        &__lostPassword {
+            .btn {
+                &__escape {
                     font-weight: 500;
                     font-size: 12px;
                     line-height: 15px;
                     text-align: center;
                     color: #00AC4E;
                 }
-                &__update-password{
+
+                &__update-password {
                     background: #00AC4E;
                     border-radius: 5px;
                     font-weight: 500;
@@ -931,10 +942,40 @@ header {
                     color: #FFFFFF;
                 }
             }
-            .modal-footer{
+
+            .modal-footer {
                 justify-content: space-between;
                 padding: 0 2rem;
             }
         }
+
+        &__booking {
+
+            .modal {
+                &-body {
+                    padding: 0 56px;
+                }
+
+                &-dialog {
+                    max-width: 654px;
+
+                    .form-group {
+                        max-width: none;
+
+                        input {
+                            background-image: none !important;
+                            padding: 16px;
+                        }
+
+                        &:nth-child(1) input {
+                            text-align: center;
+                        }
+
+
+                    }
+                }
+            }
+        }
+
     }
 }

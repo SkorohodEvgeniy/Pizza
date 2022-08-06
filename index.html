@@ -159,7 +159,13 @@
                   <a class="nav-link" href="page-pay.html">Оплата</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="page-contact.html">Бронь стола</a>
+                  <a
+                    class="nav-link"
+                    href="page-contact.html"
+                    data-toggle="modal"
+                    data-target="#modalBooking"
+                    >Бронь стола</a
+                  >
                 </li>
               </ul>
               <div
@@ -683,14 +689,27 @@
                     placeholder="Пароль"
                   />
                 </div>
-                <button type="button" class="forgot" data-toggle="modal" data-dismiss="modal" data-target="#lostPassword">Забыли пароль?</button>
+                <button
+                  type="button"
+                  class="forgot"
+                  data-toggle="modal"
+                  data-dismiss="modal"
+                  data-target="#lostPassword"
+                >
+                  Забыли пароль?
+                </button>
                 <button type="submit" class="btn__submit">Войти</button>
               </form>
             </div>
             <div class="modal-footer d-flex justify-content-center">
               <span>Впервые у нас?</span>
-              <button type="button" class="btn_registration" data-toggle="modal"
-              data-target="#registration" data-dismiss="modal">
+              <button
+                type="button"
+                class="btn_registration"
+                data-toggle="modal"
+                data-target="#registration"
+                data-dismiss="modal"
+              >
                 Зарегистрироваться
               </button>
             </div>
@@ -700,7 +719,7 @@
 
       <!-- Modal Registration-->
       <div
-        class="modal fade modal__register  "
+        class="modal fade modal__register"
         id="registration"
         data-keyboard="false"
         aria-labelledby="staticBackdropLabel"
@@ -720,9 +739,7 @@
             </div>
             <div class="modal-body text-center">
               <img src="img/svg/person-reg.svg" width="34" height="34" />
-              <h5 class="modal-title" id="staticBackdropLabel">
-                Регистрация
-              </h5>
+              <h5 class="modal-title" id="staticBackdropLabel">Регистрация</h5>
               <form class="d-flex flex-column justify-content-center">
                 <div class="form-group mb-2">
                   <input
@@ -750,34 +767,41 @@
                 </div>
                 <div class="form-group radio__group mb-1 d-flex flex-column">
                   <div class="d-flex">
-
                     <input
                       type="radio"
                       class="form-control radio__group-one"
                       id="radio-one"
                     />
-                    <label for="radio-one">Хочу получать выгодные предложения от магазина</label>
+                    <label for="radio-one"
+                      >Хочу получать выгодные предложения от магазина</label
+                    >
                   </div>
                   <div class="d-flex">
-
                     <input
                       type="radio"
                       class="form-control radio__group-two"
                       id="radio-two"
                     />
-                    <label for="radio-two">Принимаю условия <a href="#">Пользовательского соглашения</a> ,<br><a href="#">Политики конфиденциальности</a> </label>
+                    <label for="radio-two"
+                      >Принимаю условия
+                      <a href="#">Пользовательского соглашения</a> ,<br /><a
+                        href="#"
+                        >Политики конфиденциальности</a
+                      >
+                    </label>
                   </div>
                 </div>
-                <button type="submit" class="btn__submit">Зарегистрироваться</button>
+                <button type="submit" class="btn__submit">
+                  Зарегистрироваться
+                </button>
               </form>
             </div>
-            
           </div>
         </div>
       </div>
       <!-- Modal Lost Password-->
       <div
-        class="modal fade modal__lostPassword  "
+        class="modal fade modal__lostPassword"
         id="lostPassword"
         data-keyboard="false"
         aria-labelledby="staticBackdropLabel"
@@ -826,12 +850,91 @@
                   />
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn__escape" data-dismiss="modal">Отменить</button>
-                  <button type="button" class="btn btn__update-password">Обновить пароль</button>
+                  <button
+                    type="button"
+                    class="btn btn__escape"
+                    data-dismiss="modal"
+                  >
+                    Отменить
+                  </button>
+                  <button type="button" class="btn btn__update-password">
+                    Обновить пароль
+                  </button>
                 </div>
               </form>
             </div>
-            
+          </div>
+        </div>
+      </div>
+      <!-- Modal Booking-->
+      <div
+        class="modal fade modal__booking"
+        id="modalBooking"
+        data-keyboard="false"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/svg/person-reg.svg" width="34" height="34" />
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Бронирование стола
+              </h5>
+              <form class="d-flex flex-column justify-content-center">
+                <div class="form-group mb-1">
+                  <input
+                    type="tel"
+                    class="form-control col-12"
+                    id="tel-name"
+                    placeholder="Имя"
+                  />
+                </div>
+                <div class="form-group mb-1">
+                  <input
+                    type="tel"
+                    class="form-control col-sm-6 col-12"
+                    id="pas-name"
+                    placeholder="+380"
+                  />
+                  <input
+                    type="number"
+                    class="form-control col-sm-6 col-12"
+                    id="pasRep-name"
+                    placeholder="Количество человек"
+                  />
+                </div>
+                <div class="form-group mb-1">
+                  <input
+                    type="time"
+                    class="form-control col-sm-6 col-12"
+                    id="pas-name"
+                    placeholder="Время:__:__"
+                  />
+                  <input
+                    type="date"
+                    class="form-control col-sm-6 col-12"
+                    id="pasRep-name"
+                    placeholder="Дата: дд.мм.гг"
+                  />
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn__update-password">
+                    Забронировать
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
