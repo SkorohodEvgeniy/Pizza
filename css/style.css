@@ -276,7 +276,7 @@
 
 html,
 body {
-  font-family: 'TT Norms Pro';
+  font-family: "TT Norms Pro";
   font-size: 16px;
   font-style: normal;
   color: #000000;
@@ -290,7 +290,7 @@ header {
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
 }
 header .header-light {
-  background-color: #FDFDFD;
+  background-color: #fdfdfd;
 }
 header .navbar-light .navbar-nav .nav-item.dropdown a {
   position: relative;
@@ -303,17 +303,17 @@ header .navbar-light .navbar-nav .nav-item .nav-link {
   line-height: 22px;
   color: #333333;
   padding: 0 22px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 header .navbar-light .navbar-nav .nav-item .nav-link:hover {
-  color: #00AC4E;
+  color: #00ac4e;
 }
 header .navbar-brand {
   margin-right: 38px;
 }
 header .nav-item.dropdown.show > a.nav-link {
-  color: #00AC4E;
+  color: #00ac4e;
 }
 header nav {
   width: 100%;
@@ -343,7 +343,7 @@ header .dropdown-menu .dropdown-item {
   padding: 9px 20px 9px 26px;
 }
 header .dropdown-menu.show {
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
   border-radius: 12px;
@@ -392,17 +392,17 @@ header .menu-right .menu-user button {
 .home-banner .carousel .carousel-indicators li {
   width: 4px;
   height: 4px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   border-radius: 50%;
 }
 .home-banner .carousel .carousel-indicators li.active {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 30px;
   border-radius: 3px;
 }
 .home-banner .block {
-  background: -webkit-gradient(linear, left top, left bottom, from(#F1F1FB), to(#EBEBF5));
-  background: linear-gradient(180deg, #F1F1FB 0%, #EBEBF5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f1f1fb), to(#ebebf5));
+  background: linear-gradient(180deg, #f1f1fb 0%, #ebebf5 100%);
   overflow: hidden;
   -webkit-box-shadow: 0px 0px 18.0727px rgba(0, 0, 0, 0.03);
           box-shadow: 0px 0px 18.0727px rgba(0, 0, 0, 0.03);
@@ -433,12 +433,12 @@ header .menu-right .menu-user button {
   margin-bottom: 32px;
 }
 .home-banner .block a {
-  background: #00AC4E;
+  background: #00ac4e;
   border-radius: 4.51818px;
   font-weight: 500;
   font-size: 25.3018px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 11px 31px;
 }
 
@@ -447,11 +447,11 @@ header .menu-right .menu-user button {
   position: relative;
 }
 .category-slider a {
-  font-family: 'TT Hoves';
+  font-family: "TT Hoves";
   font-weight: 400;
   font-size: 23.3333px;
   line-height: 27px;
-  color: #4F4F4F;
+  color: #4f4f4f;
   text-transform: uppercase;
   display: grid;
   text-align: center;
@@ -460,8 +460,8 @@ header .menu-right .menu-user button {
   font-weight: 500;
   font-size: 23.3333px;
   line-height: 27px;
-  color: #FFFFFF;
-  background: #00AC4E;
+  color: #ffffff;
+  background: #00ac4e;
   border-radius: 5px;
   padding: 8px 0;
 }
@@ -477,7 +477,7 @@ header .menu-right .menu-user button {
 
 .slick-prev::before,
 .slick-next::before {
-  color: #00AC4E;
+  color: #00ac4e;
 }
 
 .article-slider__arrow {
@@ -542,10 +542,10 @@ header .menu-right .menu-user button {
   margin-left: 18px;
 }
 .all__products-block .to__cart {
-  background: #00AC4E;
+  background: #00ac4e;
   border-radius: 4.52641px;
   padding: 10px 28px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 .all__products-title {
@@ -594,9 +594,9 @@ header .menu-right .menu-user button {
   border: none;
 }
 .pagination .page-item.active a {
-  background: #00AC4E;
+  background: #00ac4e;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 8px 17px;
 }
 
@@ -638,7 +638,7 @@ header .menu-right .menu-user button {
   width: 106px;
   height: 106px;
   border: none;
-  background: #00AC4E;
+  background: #00ac4e;
   box-shadow: -1px -1px 0px 29px rgba(0, 172, 78, 0.6);
   -webkit-box-shadow: -1px -1px 0px 29px rgba(0, 172, 78, 0.6);
   -moz-box-shadow: -1px -1px 0px 29px #00ac4e;
@@ -728,12 +728,12 @@ header .menu-right .menu-user button {
   background: url(../img/delivery.webp) no-repeat top right;
 }
 .delivery__block a {
-  background: #00AC4E;
+  background: #00ac4e;
   border-radius: 4.51818px;
   font-weight: 500;
   font-size: 25.3018px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 9px 23px;
 }
 .delivery__title {
@@ -747,7 +747,7 @@ header .menu-right .menu-user button {
 /*Footer*/
 .footer {
   padding: 34px 0;
-  background: #00AC4E;
+  background: #00ac4e;
   font-style: normal;
   font-weight: 400;
   font-size: 12.3407px;
@@ -845,13 +845,13 @@ header .menu-right .menu-user button {
   color: #828282;
 }
 .page__delivery-link--catalog {
-  background: #00AC4E;
+  background: #00ac4e;
   border-radius: 6.90493px;
   font-weight: 500;
   font-size: 20px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 16px 39px;
   margin-right: 60px;
 }
@@ -863,14 +863,14 @@ header .menu-right .menu-user button {
   font-size: 22.2162px;
   line-height: 29px;
   text-align: center;
-  color: #00AC4E;
+  color: #00ac4e;
   position: relative;
 }
 .page__delivery-link--pay:hover {
   text-decoration: none;
 }
 .page__delivery-link--pay::after {
-  content: '';
+  content: "";
   background-image: url(../img/svg/arrow-link.svg);
   width: 20px;
   height: 15px;
@@ -882,24 +882,24 @@ header .menu-right .menu-user button {
   border-radius: 5px;
 }
 .page__delivery-form textarea {
-  background: #F9F9F9;
+  background: #f9f9f9;
   width: 100%;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
   border-radius: 5px;
   padding: 20px;
   font-size: 20px;
   line-height: 21px;
-  color: #BDBDBD;
+  color: #bdbdbd;
   margin-bottom: 45px;
 }
 .page__delivery-form button {
-  background: #00AC4E;
+  background: #00ac4e;
   border-radius: 7.8169px;
   font-weight: 500;
   font-size: 18.7606px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 18px 45px;
   border: none;
 }
@@ -915,8 +915,7 @@ header .menu-right .menu-user button {
   .modal-dialog {
     max-width: 358px;
     margin: 1.75rem auto;
-    height: 420px;
-    background: #FFFFFF;
+    background: #ffffff;
     -webkit-box-shadow: 0px 0px 17.7465px rgba(0, 0, 0, 0.12);
             box-shadow: 0px 0px 17.7465px rgba(0, 0, 0, 0.12);
     border-radius: 17.4636px;
@@ -926,7 +925,7 @@ header .menu-right .menu-user button {
     padding-bottom: 0;
   }
   .modal-header .close span {
-    color: #00AC4E;
+    color: #00ac4e;
     font-size: 35px;
     font-weight: lighter;
     line-height: 2px;
@@ -938,26 +937,34 @@ header .menu-right .menu-user button {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
   }
+  .modal-body form .form-group {
+    max-width: 269px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
   .modal-body form .form-group:nth-child(1) input {
     background-image: url(../img/svg/phone-reg.svg);
     background-repeat: no-repeat;
     top: 50%;
     background-position: 10%, 50%;
   }
-  .modal-body form .form-group:nth-child(2) input {
+  .modal-body form .form-group:nth-child(2) input, .modal-body form .form-group:nth-child(3) input {
     background-image: url(../img/svg/key-reg.svg);
     background-repeat: no-repeat;
     top: 50%;
     background-position: 10%, 50%;
   }
   .modal-body form .form-group input {
-    background: #FCFCFC;
-    border: 0.873181px solid #EBEBEB;
+    background: #fcfcfc;
+    border: 0.873181px solid #ebebeb;
     border-radius: 5.91549px;
     font-weight: 400;
     font-size: 12.2245px;
     line-height: 18px;
-    color: #C6C6C6;
+    color: #c6c6c6;
     padding: 16px 0 16px 50px;
     width: 269px;
     height: 50px;
@@ -965,12 +972,71 @@ header .menu-right .menu-user button {
     margin-bottom: 25px;
     position: relative;
   }
+  .modal-body form .form-group.radio__group label {
+    font-size: 9.3569px;
+    line-height: 14px;
+    text-align: center;
+    color: #C6C6C6;
+    text-align: start;
+    cursor: pointer;
+  }
+  .modal-body form .form-group.radio__group label a {
+    color: #00ac4e;
+  }
+  .modal-body form .form-group.radio__group .radio__group-one,
+  .modal-body form .form-group.radio__group .radio__group-two {
+    cursor: pointer;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 14px;
+    margin-left: 0;
+    margin-right: 16px;
+  }
+  .modal-body form .form-group.radio__group .radio__group-one[type="radio"],
+  .modal-body form .form-group.radio__group .radio__group-two[type="radio"] {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: none;
+  }
+  .modal-body form .form-group.radio__group .radio__group-one[type="radio"]::before,
+  .modal-body form .form-group.radio__group .radio__group-two[type="radio"]::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 2px solid #ebebeb;
+  }
+  .modal-body form .form-group.radio__group .radio__group-one[type="radio"]:checked::after,
+  .modal-body form .form-group.radio__group .radio__group-two[type="radio"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00ac4e;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    visibility: visible;
+  }
   .modal-body form .forgot {
     font-size: 14.1972px;
     line-height: 17px;
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
-    color: #00AC4E;
+    color: #00ac4e;
     background-color: transparent;
     border: none;
     -ms-flex-item-align: center;
@@ -978,7 +1044,7 @@ header .menu-right .menu-user button {
     margin-bottom: 12px;
   }
   .modal-body form .btn__submit {
-    background: #00AC4E;
+    background: #00ac4e;
     border-radius: 5.91549px;
     margin-bottom: 10px;
     -ms-flex-item-align: center;
@@ -988,7 +1054,7 @@ header .menu-right .menu-user button {
     font-size: 14.1972px;
     line-height: 18px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     border: none;
   }
   .modal-content {
@@ -1002,9 +1068,9 @@ header .menu-right .menu-user button {
     font-size: 12.2245px;
     line-height: 18px;
     text-align: center;
-    color: #00AC4E;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    color: #00ac4e;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
   }
   .modal-content .btn_registration:hover {
     text-decoration: underline;
