@@ -936,6 +936,7 @@ header .menu-right .menu-user button {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
+    padding-bottom: 1rem;
   }
   .modal-body form .form-group {
     max-width: 269px;
@@ -1116,5 +1117,4 @@ header .menu-right .menu-user button {
     padding: 0 2rem;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
