@@ -177,12 +177,11 @@
                   </a>
                 </div>
                 <div class="menu-user">
-                  <button class="profile"></button>
                   <button
                     type="button"
                     class=""
                     data-toggle="modal"
-                    data-target="#staticBackdrop"
+                    data-target="#inSingn"
                   >
                     <img
                       src="img/svg/fr-sprite.svg#src-15"
@@ -642,10 +641,10 @@
 
       <!-- Button trigger modal -->
 
-      <!-- Modal -->
+      <!-- Modal inSingn-->
       <div
         class="modal fade modal__register"
-        id="staticBackdrop"
+        id="inSingn"
         data-backdrop="static"
         data-keyboard="false"
         aria-labelledby="staticBackdropLabel"
@@ -687,6 +686,83 @@
                 </div>
                 <button type="button" class="forgot">Забыли пароль?</button>
                 <button type="submit" class="btn__submit">Войти</button>
+              </form>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <span>Впервые у нас?</span>
+              <button type="button" class="btn_registration" data-toggle="modal"
+              data-target="#registration" data-dismiss="modal">
+                Зарегистрироваться
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal REgistration-->
+      <div
+        class="modal fade modal__register"
+        id="registration"
+        data-backdrop="static"
+        data-keyboard="false"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/svg/person-reg.svg" width="34" height="34" />
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Регистрация
+              </h5>
+              <form class="d-flex flex-column justify-content-center">
+                <div class="form-group mb-2">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="tel-name"
+                    placeholder="Телефон"
+                  />
+                </div>
+                <div class="form-group mb-2">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="pas-name"
+                    placeholder="Пароль"
+                  />
+                </div>
+                <div class="form-group mb-1">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="pasRep-name"
+                    placeholder="Повторите пароль"
+                  />
+                </div>
+                <div class="form-group radio__group mb-1">
+                  <input
+                    type="radio"
+                    class="form-control radio__group-one"
+                    id="radio-name"
+                  />
+                  <input
+                    type="radio"
+                    class="form-control radio__group-two"
+                    id="radio-name"
+                  />
+                </div>
+                <button type="submit" class="btn__submit">Зарегистрироваться</button>
               </form>
             </div>
             <div class="modal-footer d-flex justify-content-center">
