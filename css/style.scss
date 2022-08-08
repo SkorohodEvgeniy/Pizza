@@ -727,6 +727,200 @@ header {
     }
 }
 
+/*Page Card*/
+
+.card__ {
+
+    &top {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 36px;
+
+    }
+
+    &img {
+        height: 100%;
+        height: 427px;
+        width: 100%;
+        background: url(../img/svg/shopping-cart-none.svg) no-repeat center center, #f9f9f9;
+        border-radius: 15px;
+
+    }
+
+    &sidebar {
+        max-width: 312px;
+        width: 100%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 27.1091px rgba(0, 0, 0, 0.06);
+        border-radius: 15px;
+        padding: 32px 30px;
+    }
+
+    &title {
+        font-weight: 500;
+        font-size: 18.0727px;
+        line-height: 23px;
+        color: #000000;
+        margin-bottom: 9px;
+    }
+
+    &count-reviews {
+        font-size: 12.6509px;
+        line-height: 19px;
+        color: #C6C6C6;
+        padding-top: 14px;
+        margin-bottom: 28px;
+    }
+
+    &price {
+        font-weight: 500;
+        font-size: 14.4582px;
+        line-height: 22px;
+        color: #C6C6C6;
+        margin-bottom: 24px;
+
+        & span {
+            font-size: 18.0727px;
+            line-height: 23px;
+            color: #000000;
+        }
+    }
+
+    &increment {
+        &-field {
+            background: #FCFCFC;
+            border: 0.903636px solid #EBEBEB;
+            border-radius: 9.03636px;
+            padding: 12px 15px;
+            width: 117px;
+            height: 43px;
+
+            input {
+                width: 100%;
+                text-align: center;
+                border: none;
+            }
+        }
+    }
+
+    &measurements {
+        font-size: 9.03636px;
+        line-height: 14px;
+        color: #C6C6C6;
+
+        & span {
+            font-size: 9.03636px;
+            line-height: 14px;
+            color: #C6C6C6;
+        }
+    }
+
+    &total {
+        font-weight: 500;
+        font-size: 14.4582px;
+        line-height: 22px;
+        color: #000000;
+        margin-bottom: 18px;
+
+        & span {
+            font-size: 18.0727px;
+            line-height: 23px;
+            color: #00AC4E;
+        }
+    }
+
+    &btn {
+        &-buy {
+            background: #00AC4E;
+            border-radius: 4.51818px;
+            font-weight: 500;
+            font-size: 18.0727px;
+            line-height: 23px;
+            color: #FFFFFF;
+            padding: 7px 67px;
+            border: none;
+        }
+
+        &-addCard {
+            background: #00AC4E;
+            border-radius: 4.51818px;
+            padding: 7px 12px;
+            border: none;
+        }
+    }
+
+    &bottom {
+
+        .card__sidebar {
+            .card__ {
+                &title {
+                    font-size: 14.5089px;
+                    line-height: 17px;
+                    color: #000000;
+                    margin-bottom: 32px;
+                }
+
+                &bonus {
+                    font-weight: 500;
+                    font-size: 14.5089px;
+                    line-height: 17px;
+                    color: #000000;
+                    position: relative;
+                    margin-left: 40px;
+                    margin-bottom: 50px;
+
+                    &::after {
+                        content: '';
+                        background-image: url(../img/svg/fr-sprite.svg#src-1);
+                        width: 37px;
+                        height: 43px;
+                        background-size: cover;
+                        position: absolute;
+                        top: -17px;
+                        left: -50px;
+
+                    }
+                }
+
+                &free-delivery {
+                    font-weight: 500;
+                    font-size: 14.5089px;
+                    line-height: 17px;
+                    color: #000000;
+                    position: relative;
+                    margin-left: 40px;
+                    margin-bottom: 18px;
+
+                    &::after {
+                        content: '';
+                        background-image: url(../img/svg/fr-sprite.svg#src-4);
+                        width: 37px;
+                        height: 43px;
+                        background-size: cover;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        top: -12px;
+                        left: -50px;
+                    }
+                }
+
+                &range-delivery {}
+
+                &range-minOrder,
+                &range-description {
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 13px;
+                    color: #000000;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}
+
 /*Media*/
 @media (min-width: 576px) {
     .modal {
@@ -972,10 +1166,27 @@ header {
 
                     .form-group {
                         max-width: none;
+                        column-gap: 35px;
 
                         input {
                             background-image: none !important;
                             padding: 16px;
+
+                            &#date-name {
+                                position: relative;
+
+                                &::after {
+                                    content: '';
+                                    background-image: url(../img/svg/calendar.svg);
+                                    background-size: cover;
+                                    background-position: center right;
+                                    background-repeat: no-repeat;
+                                    width: 15px;
+                                    height: 15px;
+                                    display: inline-block;
+                                    position: absolute;
+                                }
+                            }
                         }
 
                         &:nth-child(1) input {

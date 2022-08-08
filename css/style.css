@@ -915,6 +915,164 @@ header .menu-right .menu-user button {
   border: none;
 }
 
+/*Page Card*/
+.card__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 36px;
+          column-gap: 36px;
+}
+.card__img {
+  height: 100%;
+  height: 427px;
+  width: 100%;
+  background: url(../img/svg/shopping-cart-none.svg) no-repeat center center, #f9f9f9;
+  border-radius: 15px;
+}
+.card__sidebar {
+  max-width: 312px;
+  width: 100%;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 27.1091px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 0px 27.1091px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  padding: 32px 30px;
+}
+.card__title {
+  font-weight: 500;
+  font-size: 18.0727px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.card__count-reviews {
+  font-size: 12.6509px;
+  line-height: 19px;
+  color: #C6C6C6;
+  padding-top: 14px;
+  margin-bottom: 28px;
+}
+.card__price {
+  font-weight: 500;
+  font-size: 14.4582px;
+  line-height: 22px;
+  color: #C6C6C6;
+  margin-bottom: 24px;
+}
+.card__price span {
+  font-size: 18.0727px;
+  line-height: 23px;
+  color: #000000;
+}
+.card__increment-field {
+  background: #FCFCFC;
+  border: 0.903636px solid #EBEBEB;
+  border-radius: 9.03636px;
+  padding: 12px 15px;
+  width: 117px;
+  height: 43px;
+}
+.card__increment-field input {
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+.card__measurements {
+  font-size: 9.03636px;
+  line-height: 14px;
+  color: #C6C6C6;
+}
+.card__measurements span {
+  font-size: 9.03636px;
+  line-height: 14px;
+  color: #C6C6C6;
+}
+.card__total {
+  font-weight: 500;
+  font-size: 14.4582px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+.card__total span {
+  font-size: 18.0727px;
+  line-height: 23px;
+  color: #00AC4E;
+}
+.card__btn-buy {
+  background: #00AC4E;
+  border-radius: 4.51818px;
+  font-weight: 500;
+  font-size: 18.0727px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding: 7px 67px;
+  border: none;
+}
+.card__btn-addCard {
+  background: #00AC4E;
+  border-radius: 4.51818px;
+  padding: 7px 12px;
+  border: none;
+}
+.card__bottom .card__sidebar .card__title {
+  font-size: 14.5089px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.card__bottom .card__sidebar .card__bonus {
+  font-weight: 500;
+  font-size: 14.5089px;
+  line-height: 17px;
+  color: #000000;
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.card__bottom .card__sidebar .card__bonus::after {
+  content: '';
+  background-image: url(../img/svg/fr-sprite.svg#src-1);
+  width: 37px;
+  height: 43px;
+  background-size: cover;
+  position: absolute;
+  top: -17px;
+  left: -50px;
+}
+.card__bottom .card__sidebar .card__free-delivery {
+  font-weight: 500;
+  font-size: 14.5089px;
+  line-height: 17px;
+  color: #000000;
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 18px;
+}
+.card__bottom .card__sidebar .card__free-delivery::after {
+  content: '';
+  background-image: url(../img/svg/fr-sprite.svg#src-4);
+  width: 37px;
+  height: 43px;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: -12px;
+  left: -50px;
+}
+.card__bottom .card__sidebar .card__range-minOrder, .card__bottom .card__sidebar .card__range-description {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  text-align: center;
+}
+
 /*Media*/
 @media (min-width: 576px) {
   .modal {
@@ -1136,10 +1294,26 @@ header .menu-right .menu-user button {
   }
   .modal__booking .modal-dialog .form-group {
     max-width: none;
+    -webkit-column-gap: 35px;
+            column-gap: 35px;
   }
   .modal__booking .modal-dialog .form-group input {
     background-image: none !important;
     padding: 16px;
+  }
+  .modal__booking .modal-dialog .form-group input#date-name {
+    position: relative;
+  }
+  .modal__booking .modal-dialog .form-group input#date-name::after {
+    content: '';
+    background-image: url(../img/svg/calendar.svg);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
   }
   .modal__booking .modal-dialog .form-group:nth-child(1) input {
     text-align: center;
