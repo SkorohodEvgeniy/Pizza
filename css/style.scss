@@ -735,6 +735,7 @@ header {
         display: flex;
         justify-content: space-between;
         column-gap: 36px;
+        margin-bottom: 61px;
 
     }
 
@@ -850,6 +851,41 @@ header {
     }
 
     &bottom {
+        column-gap: 36px;
+
+        &--info {
+            width: 100%;
+
+            .card__info-tabs {
+                border-bottom: none;
+                column-gap: 25px;
+                margin-bottom: 41px;
+
+                .nav-item {
+                    .nav-link {
+                        font-family: 'TT Norms Pro';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 28.8639px;
+                        line-height: 19px;
+                        color: #828282;
+                        padding: 8px 0;
+
+
+                        &.active {
+                            padding: 8px 0;
+                            font-family: 'TT Norms Pro';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 28.8639px;
+                            line-height: 19px;
+                            color: #00AC4E;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
 
         .card__sidebar {
             .card__ {
@@ -889,7 +925,7 @@ header {
                     color: #000000;
                     position: relative;
                     margin-left: 40px;
-                    margin-bottom: 18px;
+                    margin-bottom: 40px;
 
                     &::after {
                         content: '';
@@ -905,17 +941,89 @@ header {
                     }
                 }
 
-                &range-delivery {}
 
-                &range-minOrder,
-                &range-description {
-                    font-weight: 500;
-                    font-size: 11px;
-                    line-height: 13px;
-                    color: #000000;
-                    text-align: center;
+            }
+
+            .range {
+                &-slide {
+                    margin-left: 15px;
+                    margin-right: 39px;
                 }
 
+                &-line {
+                    width: 100%;
+                    height: 3px;
+                    background-color: #f2f2f2;
+                    border-radius: 2px;
+                    position: relative;
+                    margin-bottom: 10px;
+
+                    &::before,
+                    &::after {
+                        content: attr(data-mins);
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 10.8817px;
+                        line-height: 13px;
+                        color: #000000;
+                        position: absolute;
+                        left: -15px;
+                        top: -4px;
+                    }
+
+                    &::after {
+                        content: attr(data-maxs);
+                        left: unset;
+                        right: -39px;
+                        top: -4px;
+                    }
+
+                    & .green-line {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background-color: #00AC4E;
+                        border-radius: 3px;
+                        height: 3px;
+                    }
+
+                    .round {
+                        width: 12px;
+                        height: 12px;
+                        background-color: #00AC4E;
+                        border: 2px solid #ffffff;
+                        box-sizing: border-box;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: -4px;
+                        left: 33%;
+                        transform: translateX(-50%);
+
+                        &::before {
+                            content: attr(data-min);
+                            font-weight: 500;
+                            font-size: 11px;
+                            line-height: 13px;
+                            color: #000000;
+                            position: absolute;
+                            top: -20px;
+                            left: 0;
+                            width: 200px;
+                            transform: translateX(-23%);
+                        }
+                    }
+
+                }
+
+                &-text {
+                    font-family: 'TT Norms Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 9px;
+                    line-height: 10px;
+                    color: #000000;
+                    padding-left: 5px;
+                }
             }
         }
     }
