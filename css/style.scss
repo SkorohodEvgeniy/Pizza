@@ -1,3 +1,4 @@
+@import "bootstrap.min";
 @import "slick";
 @import "slick-theme";
 
@@ -40,6 +41,7 @@ html,
 body {
     font-family: "TT Norms Pro";
     font-size: 16px;
+    font-weight: 400;
     font-style: normal;
     color: #000000;
     height: 100%;
@@ -885,6 +887,128 @@ header {
                     }
                 }
             }
+
+            .tab {
+                &-content {}
+
+                &-pane {
+                    .tab__title {
+                        font-weight: 500;
+                        font-size: 21.6479px;
+                        line-height: 19px;
+                        color: #000000;
+                        margin-bottom: 22px;
+                    }
+
+                    p {
+                        font-size: 18.0399px;
+                        line-height: 19px;
+                        color: #828282;
+                    }
+
+                    ul {
+                        list-style: none;
+                        padding: 0;
+
+                        li {
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: #828282;
+                            margin-bottom: 22px;
+                        }
+                    }
+
+                }
+
+                &__reviews {
+                    &-title {
+                        font-weight: 500;
+                        font-size: 16.7727px;
+                        line-height: 20px;
+                        color: #000000;
+                        margin-bottom: 17px;
+                    }
+
+                    &-slider {
+                        margin-bottom: 17px;
+
+                        .tab__review {
+                            padding: 15px;
+                            background: #F2F2F2;
+                            opacity: 0.75;
+                            border-radius: 11.1818px;
+                            margin-left: 17px;
+
+                            &-header {
+                                margin-bottom: 7px;
+
+                                img {
+                                    border-radius: 50%;
+                                    width: 35px;
+                                    height: 35px;
+                                    margin-right: 7px;
+                                }
+
+                                .header__title {
+                                    h4 {
+                                        font-weight: 500;
+                                        font-size: 11.1818px;
+                                        line-height: 13px;
+                                        color: #000000;
+                                    }
+
+                                    a {
+                                        font-size: 8.94545px;
+                                        line-height: 11px;
+                                        text-decoration-line: underline;
+                                        color: #2D9CDB;
+                                    }
+
+                                    .rating {
+                                        height: 8px;
+
+                                        span {
+                                            width: 11px;
+                                            height: 8px;
+                                            background-position: center;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &-footer {
+                                p {
+                                    font-size: 8.94545px;
+                                    line-height: 11px;
+                                    color: #000000;
+                                    margin: 0;
+                                }
+
+                                a {
+                                    font-weight: 500;
+                                    font-size: 7.82727px;
+                                    line-height: 9px;
+                                    text-decoration-line: underline;
+                                    color: #00AC4E;
+                                }
+                            }
+                        }
+                    }
+
+                    &-add {
+                        background: #00AC4E;
+                        border-radius: 7.06966px;
+                        padding: 12px 18px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 16px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        border: none;
+                    }
+                }
+            }
         }
 
         .card__sidebar {
@@ -1028,6 +1152,14 @@ header {
         }
     }
 }
+
+button.close {
+    z-index: 1;
+}
+
+/*Modal*/
+
+
 
 /*Media*/
 @media (min-width: 576px) {
@@ -1307,5 +1439,37 @@ header {
             }
         }
 
+        &__add-reviews {
+            .modal {
+                &-content {
+                    padding: 24px 10px 14px 23px;
+                }
+
+                &-title {
+                    font-size: 15.2466px;
+                    line-height: 22px;
+                    color: #000000;
+                }
+
+                &-content {
+                    form {
+                        label {
+                            font-size: 9.09863px;
+                            line-height: 9px;
+                            color: #000000;
+                            display: inline-block;
+                        }
+
+                        input {
+                            background-image: none !important;
+                            padding: 8px 12px;
+                        }
+                    }
+                }
+            }
+
+        }
     }
+
+
 }
