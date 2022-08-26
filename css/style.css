@@ -11517,6 +11517,197 @@ header .menu-right .menu-user button {
   background-size: cover;
 }
 
+/*Page*/
+.page__cabinet {
+  padding-bottom: 60px;
+}
+.page__cabinet .nav-pills li {
+  margin-right: 86px;
+}
+.page__cabinet .nav-pills li button {
+  color: #00AC4E;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.2907px;
+  line-height: 21px;
+  padding: 16px;
+}
+.page__cabinet .nav-pills li button svg {
+  margin-bottom: 15px;
+}
+.page__cabinet .nav-pills li button svg path {
+  fill: #00AC4E;
+}
+.page__cabinet .nav-pills li button.active {
+  background-color: #00AC4E;
+  border-radius: 16px;
+}
+.page__cabinet .nav-pills li button.active svg path {
+  fill: #fff;
+}
+.page__cabinet #pills-tabContent-cabinet .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.page__cabinet #pills-tabContent-cabinet .title span {
+  font-size: 20px;
+}
+.page__cabinet #pills-tabContent-cabinet .load-pic {
+  margin-bottom: 45px;
+}
+.page__cabinet #pills-tabContent-cabinet .load-pic span {
+  width: 75px;
+  height: 75px;
+  background-color: #00AC4E;
+  border-radius: 12px;
+  margin-right: 18px;
+}
+.page__cabinet #pills-tabContent-cabinet .load-pic label {
+  color: #00AC4E;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+.page__cabinet #pills-tabContent-cabinet .load-pic label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.page__cabinet #pills-tabContent-cabinet button[type="submit"] {
+  background-color: #00AC4E;
+  border-radius: 4.18415px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.7156px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 185px;
+  height: 44px;
+  border: none;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list {
+  -webkit-box-shadow: 0px 0px 16.2899px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 0px 16.2899px rgba(0, 0, 0, 0.07);
+  border-radius: 13.0319px;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list .data-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list .data-order > div {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.4096px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list .data-order > div a,
+.page__cabinet #pills-tabContent-cabinet .order__list .data-order > div .delivered {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4096px;
+  line-height: 29px;
+  color: #00AC4E;
+  margin-left: 8px;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list .data-order > div a.canceled,
+.page__cabinet #pills-tabContent-cabinet .order__list .data-order > div .delivered.canceled {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4096px;
+  line-height: 29px;
+  color: #EB5757;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list .data-order > div span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4096px;
+  line-height: 29px;
+  color: #000000;
+  margin-left: 8px;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list ul {
+  list-style: none;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li {
+  border-top: 0.710994px solid #EBEBEB;
+  padding: 14px 14px 14px 40px;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li:not(:first-of-type) {
+  border-bottom: 0.710994px solid #EBEBEB;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li .img {
+  width: 79px;
+  height: 58px;
+  background: #00AC4E;
+  border-radius: 3.55497px;
+  margin-right: 25px;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li .name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.1493px;
+  line-height: 15px;
+  color: #000000;
+  margin-right: 65px;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li .count {
+  background: #FCFCFC;
+  border: 0.882021px solid #EBEBEB;
+  border-radius: 8.82021px;
+  width: 114px;
+  height: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 41px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3483px;
+  line-height: 19px;
+  color: #000000;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li .price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.1866px;
+  line-height: 17px;
+  color: #000000;
+}
+.page__cabinet #pills-tabContent-cabinet .order__list .repeat-order {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2899px;
+  line-height: 29px;
+  color: #00AC4E;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 /*Pagination*/
 .pagination {
   margin-bottom: 60px;
@@ -11536,15 +11727,25 @@ header .menu-right .menu-user button {
   padding: 8px 17px;
 }
 
-/*Home__video*/
-/*
-.video {
-    position: relative;
-    width: 100%;
-    max-height: 648px;
-    background-color: #000000;
+/*All form CSS*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  background: #FCFCFC;
+  border: 1.61275px solid #EBEBEB;
+  border-radius: 8.06373px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.1275px;
+  line-height: 34px;
+  color: #C6C6C6;
+  padding-left: 22px;
+  height: 52px;
+  width: 100%;
 }
-*/
+
+/*Home__video*/
 .video__link {
   position: absolute;
   top: 0;
@@ -12442,13 +12643,11 @@ button.close {
   .modal__booking .modal-dialog .form-group:nth-child(1) input {
     text-align: center;
   }
-  .modal__add-reviews .modal-content {
-    padding: 24px 10px 14px 23px;
+  .modal__add-reviews .modal-dialog {
+    max-width: 420px;
   }
-  .modal__add-reviews .modal-title {
-    font-size: 15.2466px;
-    line-height: 22px;
-    color: #000000;
+  .modal__add-reviews .modal-content {
+    padding: 24px 10px 14px 28px;
   }
   .modal__add-reviews .modal-content form label {
     font-size: 9.09863px;
@@ -12460,5 +12659,57 @@ button.close {
     background-image: none !important;
     padding: 8px 12px;
   }
+  .modal__add-reviews .modal-header {
+    padding-top: 11px;
+  }
+  .modal__add-reviews .modal-header .close {
+    padding-top: 0;
+  }
+  .modal__add-reviews .modal-body {
+    padding-top: 17px;
+  }
+  .modal__add-reviews .modal-body form .form-group {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 100%;
+  }
+  .modal__add-reviews .modal-body form .form-group label {
+    margin-bottom: 16px;
+    margin-right: 28px;
+  }
+  .modal__add-reviews .modal-body form .form-group input {
+    margin-bottom: 18px;
+    height: 33px;
+    width: 177px;
+    margin: 0;
+    margin-bottom: 18px;
+    margin-right: auto;
+  }
+  .modal__add-reviews .modal-body form .form-group textarea {
+    height: 99px;
+    width: 245px;
+  }
+  .modal__add-reviews .modal-body form button {
+    width: 94px;
+    height: 30px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8.01644px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0;
+  }
+  .modal__add-reviews .modal-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.0411px;
+    line-height: 29px;
+    margin-top: 0;
+    margin-bottom: 13px;
+  }
 }
+
 /*# sourceMappingURL=style.css.map */
