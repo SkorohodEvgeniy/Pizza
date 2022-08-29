@@ -71,7 +71,8 @@
                         data-target="#lostPassword">
                         Забыли пароль?
                     </button>
-                    <button type="submit" class="btn__submit">Войти</button>
+                    <!--<button type="submit" class="btn__submit">Войти</button>-->
+                    <a href="cabinet.php" class="btn__submit">Войти</a>
                 </form>
             </div>
             <div class="modal-footer d-flex justify-content-center">

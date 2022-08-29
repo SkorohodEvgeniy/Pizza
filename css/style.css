@@ -11207,6 +11207,7 @@ a.text-dark:focus, a.text-dark:hover {
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
+  border: none;
 }
 
 html,
@@ -11643,24 +11644,170 @@ header .menu-right .menu-user button {
   color: #000000;
   margin-left: 8px;
 }
-.page__cabinet #pills-tabContent-cabinet .order__list ul {
+.page__cabinet #pills-tabContent-cabinet .order__list .repeat-order {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2899px;
+  line-height: 29px;
+  color: #00AC4E;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.page__cart-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 50px;
+  margin-bottom: 13px;
+}
+.page__cart .card__sidebar {
+  max-width: 609px;
+}
+.page__cart .order-buy {
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  padding: 33px;
+  margin-bottom: 45px;
+}
+.page__cart .order-buy .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 39px;
+}
+.page__cart .order-buy ul li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 35px;
+}
+.page__cart .order-buy ul li span {
+  margin-right: 5px;
+  margin-left: auto;
+}
+.page__cart .order-buy ul li.percent span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #00AC4E;
+}
+.page__cart .order-total {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page__cart .order-total p,
+.page__cart .order-total span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 6px;
+}
+.page__cart .promo-code .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.page__cart .promo-code input {
+  background: #FCFCFC;
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.page__cart .add-comment {
+  font-weight: 500;
+  font-size: 17.0726px;
+  line-height: 24px;
+  color: #00AC4E;
+  border: none;
+  background-color: transparent;
+  display: block;
+  margin-bottom: 5px;
+}
+.page__cart .add-comment.collapsed {
+  margin-bottom: 35px;
+}
+.page__cart .add-comment + div {
+  margin-bottom: 35px;
+}
+.page__cart .box-delivery li button.active {
+  background: #00AC4E;
+  border-radius: 9.59274px;
+  font-weight: 500;
+  font-size: 14.6903px;
+  line-height: 11px;
+  color: #FFFFFF;
+}
+.page__cart .total-pay {
+  -webkit-box-shadow: 0px 0px 28.763px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 0px 28.763px rgba(0, 0, 0, 0.06);
+  border-radius: 9.58767px;
+  padding: 35px 31px;
+  font-weight: 500;
+  font-size: 13.0516px;
+  line-height: 20px;
+  color: #000000;
+}
+.page__cart .total-pay.deliv .ad {
+  display: none;
+}
+.page__cart .total-pay.pick .as {
+  display: none;
+}
+.page__cart .total-pay ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.page__cart .total-pay ul li span {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+/*--------------Cabinet/Cart-----------*/
+ul {
   list-style: none;
 }
-.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li {
+ul.lists-eats li {
   border-top: 0.710994px solid #EBEBEB;
   padding: 14px 14px 14px 40px;
 }
-.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li:not(:first-of-type) {
+ul.lists-eats li .delete {
+  cursor: pointer;
+}
+ul.lists-eats li .delete svg path {
+  fill: #C6C6C6;
+}
+ul.lists-eats li:not(:first-of-type) {
   border-bottom: 0.710994px solid #EBEBEB;
 }
-.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li .img {
+ul.lists-eats li .img {
   width: 79px;
   height: 58px;
   background: #00AC4E;
   border-radius: 3.55497px;
   margin-right: 25px;
 }
-.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li .name {
+ul.lists-eats li .name {
   font-style: normal;
   font-weight: 500;
   font-size: 16.1493px;
@@ -11668,7 +11815,7 @@ header .menu-right .menu-user button {
   color: #000000;
   margin-right: 65px;
 }
-.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li .count {
+ul.lists-eats li .count {
   background: #FCFCFC;
   border: 0.882021px solid #EBEBEB;
   border-radius: 8.82021px;
@@ -11690,22 +11837,12 @@ header .menu-right .menu-user button {
   line-height: 19px;
   color: #000000;
 }
-.page__cabinet #pills-tabContent-cabinet .order__list ul.lists-eats li .price {
+ul.lists-eats li .price {
   font-style: normal;
   font-weight: 700;
   font-size: 20.1866px;
   line-height: 17px;
   color: #000000;
-}
-.page__cabinet #pills-tabContent-cabinet .order__list .repeat-order {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16.2899px;
-  line-height: 29px;
-  color: #00AC4E;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 /*Pagination*/
@@ -11731,7 +11868,8 @@ header .menu-right .menu-user button {
 input[type="text"],
 input[type="email"],
 input[type="password"],
-input[type="tel"] {
+input[type="tel"],
+select {
   background: #FCFCFC;
   border: 1.61275px solid #EBEBEB;
   border-radius: 8.06373px;
@@ -11741,6 +11879,7 @@ input[type="tel"] {
   line-height: 34px;
   color: #C6C6C6;
   padding-left: 22px;
+  padding-right: 22px;
   height: 52px;
   width: 100%;
 }
@@ -12107,6 +12246,8 @@ input[type="tel"] {
   width: 100%;
   text-align: center;
   border: none;
+  height: auto;
+  padding-left: 0;
 }
 .card__measurements {
   font-size: 9.03636px;

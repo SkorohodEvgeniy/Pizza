@@ -17,7 +17,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light header-light">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <picture>
                             <source srcset="img/logo.webp" type="image/webp" />
                             <img loading="lazy" src="img/logo.jpg" width="" height="" alt="" />
@@ -84,7 +84,7 @@
                                     <img src="img/svg/fr-sprite.svg#src-15" width="31" height="31" alt="person" />
                                 </button>
 
-                                <a href="#" class="cart">
+                                <a href="cart.php" class="cart">
                                     <img src="img/svg/fr-sprite.svg#src-22" alt="cart" width="31" height="31" />
                                 </a>
                             </div>
